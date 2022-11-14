@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crypto Data</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div class="heading-wrapper">
+            <p class="heading">Crypto</p>
+            <div class="edit-component">
+                <div class="search-component">
+                    <input type="text" id="input" placeholder="Search" >
+                    <button class="search-button" id="search-btn" ><i class="ri-search-line"></i></button>
+                </div>
+                <div class="dropdown-component">
+                    <select id="dropdown" name="currency" id="currency">
+                        <option id="usd" value="USD">$ USD</option>
+                        <option id="inr" value="INR">₹ INR</option>
+                      </select>
+                </div>
+            </div>
+        </div>
+        <table class="table hide">
+            <tr id="table-header">
+                <th id="table-header1"><p>TOKEN (symbol)</p></th>
+                <th id="table-header2"><p>PRICE (USD)</p></th>
+                <th id="table-header3"><p>CIRCULATING SUPPLY</p></th>
+            </tr>
+        </table>
+    </body>
+    </html>
